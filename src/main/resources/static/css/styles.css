@@ -1,0 +1,23 @@
+body{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-size: 1.2vw;
+        gap:3vh;
+        color: whitesmoke;
+        background-color: rgb(136, 136, 136);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 1vh;
+    color: whitesmoke;
+}
+
+input{
+    font-size: 1.5vw;
+}

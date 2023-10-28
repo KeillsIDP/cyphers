@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link type="text/css" href="/css/styles.css" rel="stylesheet"/>
+  <title>Title</title>
+</head>
+<body>
+<form action="/" method="get">
+  <label>Вернуться назад</label>
+  <input type="submit"/>
+</form>
+<form action="/gamma/" method="post">
+  <label>Введите строку для шифровки</label>
+  <input type="text" name="input" id="input"/>
+  <label>Ключ шифрования</label>
+  <input type="text" name="key" id="key"/>
+  <input type="submit"/>
+</form>
+<label>Вывод</label>
+<input type="text" th:value="${result}" />
+</body>
+</html>
